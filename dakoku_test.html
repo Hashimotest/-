@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--定義とタイトル-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>打刻アプリ</title>
+<link rel="stylesheet" href="./css/style.css">
+<!---->
+</head>
+
+<body>
+    
+<!--XXXXの部分は適宜変更する-->
+
+<div class="wrapper">
+
+<!--メインコンテンツ お問い合わせ-->
+<main>
+    <h2 class="conmidashi">打刻アプリ</h2>
+    <!--<form method="GET" action="result.html">-->
+        <form action="https://docs.google.com/forms/XXXX">
+
+        <div class="choice">
+            <label for="kind">記録形式</label><br>
+            <!--<select id="kind" name="kind">-->
+            <select id="kind" name="entry.XXXXX" required="required">
+                <option value="出勤">出勤</option>
+                <option value="退勤">退勤</option>
+                <option value="休憩開始">休憩開始</option>
+                <option value="休憩終了">休憩終了</option>
+            </select>
+        </div>
+
+        <div class="choice">
+            ユーザー名<br>
+            <select id="kind" name="entry.XXXXX" required="required">
+                <option value="田中太郎">田中太郎</option>
+                <option value="田中太郎2">田中太郎2</option>
+
+            </select>
+        </div>
+
+        <div class="choice">
+            <label>備考<br>
+            <textarea name="entry.XXXXX" placeholder="何かありましたらコチラに"></textarea></label>
+        </div>
+        <div class="choice">
+            <input type="submit" name="submit" value="送信">
+        </div>
+    </form>
+</main>
+<!---->
+
+<!--フッター-->
+<!--<footer class="footer">
+    <Otozuretekurete>&copy;Copyright Hashiyazaki Daigo. All rights reserved. Thank you.</p>
+</footer>-->
+<!---->
+
+</div>
+</body>
+</html>
